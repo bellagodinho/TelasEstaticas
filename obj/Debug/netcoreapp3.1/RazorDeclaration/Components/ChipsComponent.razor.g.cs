@@ -97,6 +97,7 @@ using ScreensWeDancin.Components;
     [Parameter] public string chipColor { get; set; } = "gray-chip";
     [Parameter] public string chipWidth { get; set; } = "max-content";
     [Parameter] public string chipHeight { get; set; } = "30px";
+    [Parameter] public string chipStyleAddOn { get; set; } = "30px";
 
 #line default
 #line hidden

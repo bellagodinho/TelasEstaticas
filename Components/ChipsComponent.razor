@@ -49,7 +49,7 @@
 
 @*fazer com div*@
 <div>
-    <span class="badge @chipColor" style="width: @chipWidth; height: @chipHeight;">@ChildContent</span>
+    <span class="badge @chipColor" style="width: @chipWidth; height: @chipHeight; margin: 2px; @chipStyleAddOn">@ChildContent</span>
 </div>
 
 @code {
@@ -57,4 +57,5 @@
     [Parameter] public string chipColor { get; set; } = "gray-chip";
     [Parameter] public string chipWidth { get; set; } = "max-content";
     [Parameter] public string chipHeight { get; set; } = "30px";
+    [Parameter] public string chipStyleAddOn { get; set; } = "30px";
 }

@@ -10,6 +10,7 @@ a, .btn-link {
     color: #8B3497;
 }
 
+/*         Textos         */
 h1 {
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
@@ -46,6 +47,16 @@ h4 {
     color: #4C454D;
 }
 
+.about-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #7F7481;
+}
+
 .body-text {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -63,6 +74,17 @@ h4 {
     line-height: 21px;
     color: #6F007D;
 }
+
+.under-text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4C454D;
+}
+/*         Fim de Textos         */
+
 
 .btn-primary {
     color: #fff;
